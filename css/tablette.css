@@ -477,9 +477,8 @@
          /*Activites a marseille*/
 
          .contenu_activites{ /* contenu des activites */
-            width: 302%;
+            width: 100%;
             height: 70%;
-            margin-left: -202%;
          }
     
          .titres_activites{ /*titre des activites*/
@@ -496,61 +495,60 @@
             display: flex;
             flex-flow: column wrap;
             align-content: space-between;
-            height: 580px;
             width: 100%;
          }
     
     
          .activites_carte-1{ /* contenu de la carte */
             height: 100%;
-            width: 23%;
+            width: 100%;
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 20px;
-            
+            margin-bottom: 40px;
          }
     
     
          .activites_carte-2{
-            height: 53%;
-            width: 21%;
+
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             margin-bottom: 56px;
             border-radius: 20px;
+            margin-bottom: 40px;
          }
     
          .activites_carte-3{
-            height: 37%;
-            width: 21%;
+     
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 20px;
+            margin-bottom: 40px;
          }
     
          .activites_carte-4{
-            height: 100%;
-            width: 24%;
+     
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 20px;
+            margin-bottom: 40px;
          }
     
          .activites_carte-5{
-            height: 45%;
-            width: 21%;
+     
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 20px;
             margin-bottom: 56px;
+            margin-bottom: 40px;
          }
     
          .activites_carte-6{
-            height: 45%;
-            width: 21%;
+     
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 20px;
+            margin-bottom: 40px;
          }
     
          .image_carte-1{ /* contenu de l'image */
@@ -571,7 +569,7 @@
          }
     
          .image_carte-2{
-            height: 250px;/*1*/
+            height: 400px;/*1*/
             position: relative;/*2*/
             overflow: hidden;/*3*/
             border-top-left-radius: 20px;
@@ -588,7 +586,7 @@
          }
     
          .image_carte-3{
-            height: 150px;/*1*/
+            height: 300px;/*1*/
             position: relative;/*2*/
             overflow: hidden;/*3*/
             border-top-left-radius: 20px;
@@ -605,7 +603,7 @@
          }
     
          .image_carte-4{
-            height: 517px;/*1*/
+            height: 510px;/*1*/
             position: relative;/*2*/
             overflow: hidden;/*3*/
             border-top-left-radius: 20px;
@@ -616,13 +614,13 @@
             width: 226%;/*4*/
             /*5 - Méthode de centrage en fonction de la taille de l'image */
             position: absolute;
-            top: 50%;
+            top: 0%;
             left: 56%;
             transform: translate(-50%, -50%);
          }
     
          .image_carte-5{
-            height: 200px;/*1*/
+            height: 480px;/*1*/
             position: relative;/*2*/
             overflow: hidden;/*3*/
             border-top-left-radius: 20px;
@@ -639,7 +637,7 @@
          }
     
          .image_carte-6{
-            height: 202px;/*1*/
+            height: 450px;/*1*/
             position: relative;/*2*/
             overflow: hidden;/*3*/
             border-top-left-radius: 20px;
@@ -657,8 +655,9 @@
     
          .nom_ativites{ /* nom des activites */
             font-weight: bolder;
-            margin-left: 20px;
             margin-top: 20px;
+            text-align: center;
+            font-size: 160%;
          }
     
 }

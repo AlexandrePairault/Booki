@@ -1,8 +1,7 @@
 @media only screen and (max-width: 768px){
 
-    body{
+    body, html{
         font-family: 'Raleway', sans-serif;
-
     }
 
     .barre_de_navigation{ /*Qui englobe le logo, hebergements, activites */
@@ -485,191 +484,195 @@
             color: #0065FC;
         }
 
-             /*Activites a marseille*/
+         /*Activites a marseille*/
 
-     .contenu_activites{ /* contenu des activites */
-        width: 302%;
-        height: 70%;
-        margin-left: -202%;
-     }
-
-     .titres_activites{ /*titre des activites*/
-        display: flex;
-        width: 30%;
-        height: 15%;
-        font-size: 20px;
-        align-items: center;
-        justify-content: start;
-        margin-top: 20px;
-     }
-
-     .contenu_activites_cartes{ /* contenu des cartes */
-        display: flex;
-        flex-flow: column wrap;
-        align-content: space-between;
-        height: 580px;
-        width: 100%;
-     }
-
-
-     .activites_carte-1{ /* contenu de la carte */
-        height: 100%;
-        width: 23%;
-        background-color: white;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        border-radius: 20px;
-        
-     }
-
-
-     .activites_carte-2{
-        height: 53%;
-        width: 21%;
-        background-color: white;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        margin-bottom: 56px;
-        border-radius: 20px;
-     }
-
-     .activites_carte-3{
-        height: 37%;
-        width: 21%;
-        background-color: white;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        border-radius: 20px;
-     }
-
-     .activites_carte-4{
-        height: 100%;
-        width: 24%;
-        background-color: white;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        border-radius: 20px;
-     }
-
-     .activites_carte-5{
-        height: 45%;
-        width: 21%;
-        background-color: white;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        border-radius: 20px;
-        margin-bottom: 56px;
-     }
-
-     .activites_carte-6{
-        height: 45%;
-        width: 21%;
-        background-color: white;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        border-radius: 20px;
-     }
-
-     .image_carte-1{ /* contenu de l'image */
-        height: 520px;/*1*/
-        position: relative;/*2*/
-        overflow: hidden;/*3*/
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-     }
-
-     .image_carte-1 img{ /* l'image de la carte */
-        width: 235%;/*4*/
-        /*5 - Méthode de centrage en fonction de la taille de l'image */
-        position: absolute;
-        top: 49%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-     }
-
-     .image_carte-2{
-        height: 250px;/*1*/
-        position: relative;/*2*/
-        overflow: hidden;/*3*/
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-     }
-
-     .image_carte-2 img{
-        width: 105%;/*4*/
-        /*5 - Méthode de centrage en fonction de la taille de l'image */
-        position: absolute;
-        top: 74%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-     }
-
-     .image_carte-3{
-        height: 150px;/*1*/
-        position: relative;/*2*/
-        overflow: hidden;/*3*/
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-     }
-
-     .image_carte-3 img{
-        width: 120%;/*4*/
-        /*5 - Méthode de centrage en fonction de la taille de l'image */
-        position: absolute;
-        top: 77%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-     }
-
-     .image_carte-4{
-        height: 517px;/*1*/
-        position: relative;/*2*/
-        overflow: hidden;/*3*/
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-     }
-
-     .image_carte-4 img{
-        width: 226%;/*4*/
-        /*5 - Méthode de centrage en fonction de la taille de l'image */
-        position: absolute;
-        top: 50%;
-        left: 56%;
-        transform: translate(-50%, -50%);
-     }
-
-     .image_carte-5{
-        height: 200px;/*1*/
-        position: relative;/*2*/
-        overflow: hidden;/*3*/
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-     }
-
-     .image_carte-5 img{
-        width: 155%;/*4*/
-        /*5 - Méthode de centrage en fonction de la taille de l'image */
-        position: absolute;
-        top: 66%;
-        left: 29%;
-        transform: translate(-50%, -50%);
-     }
-
-     .image_carte-6{
-        height: 202px;/*1*/
-        position: relative;/*2*/
-        overflow: hidden;/*3*/
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-     }
-
-     .image_carte-6 img{
-        width: 127%;/*4*/
-        /*5 - Méthode de centrage en fonction de la taille de l'image */
-        position: absolute;
-        top: 50%;
-        left: 51%;
-        transform: translate(-50%, -50%);
-     }
-
-     .nom_ativites{ /* nom des activites */
-        font-weight: bolder;
-        margin-left: 20px;
-        margin-top: 20px;
-     }
+         .contenu_activites{ /* contenu des activites */
+            width: 100%;
+            height: 70%;
+         }
+    
+         .titres_activites{ /*titre des activites*/
+            display: flex;
+            width: 30%;
+            height: 15%;
+            font-size: 20px;
+            align-items: center;
+            justify-content: start;
+            margin-top: 350%;
+         }
+    
+         .contenu_activites_cartes{ /* contenu des cartes */
+            display: flex;
+            flex-flow: column wrap;
+            align-content: space-between;
+            width: 100%;
+         }
+    
+    
+         .activites_carte-1{ /* contenu de la carte */
+            width: 94%;
+            margin-left: 2%;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+         }
+    
+    
+         .activites_carte-2{
+            width: 94%;
+            margin-left: 2%;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin-bottom: 56px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+         }
+    
+         .activites_carte-3{
+            width: 94%;
+            margin-left: 2%;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+         }
+    
+         .activites_carte-4{
+            width: 94%;
+            margin-left: 2%;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+         }
+    
+         .activites_carte-5{
+            width: 94%;
+            margin-left: 2%;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 20px;
+            margin-bottom: 56px;
+            margin-bottom: 40px;
+         }
+    
+         .activites_carte-6{
+            width: 94%;
+            margin-left: 2%;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+         }
+    
+         .image_carte-1{ /* contenu de l'image */
+            height: 130px;/*1*/
+            position: relative;/*2*/
+            overflow: hidden;/*3*/
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+         }
+    
+         .image_carte-1 img{ /* l'image de la carte */
+            width: 100%;/*4*/
+            /*5 - Méthode de centrage en fonction de la taille de l'image */
+            position: absolute;
+            top: 69%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+         }
+    
+         .image_carte-2{
+            height: 130px;
+            position: relative;/*2*/
+            overflow: hidden;/*3*/
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+         }
+    
+         .image_carte-2 img{
+            width: 105%;/*4*/
+            /*5 - Méthode de centrage en fonction de la taille de l'image */
+            position: absolute;
+            top: 74%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+         }
+    
+         .image_carte-3{
+            height: 130px;
+            position: relative;/*2*/
+            overflow: hidden;/*3*/
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+         }
+    
+         .image_carte-3 img{
+            width: 120%;/*4*/
+            /*5 - Méthode de centrage en fonction de la taille de l'image */
+            position: absolute;
+            top: 77%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+         }
+    
+         .image_carte-4{
+            height: 130px;
+            position: relative;/*2*/
+            overflow: hidden;/*3*/
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+         }
+    
+         .image_carte-4 img{
+            width: 226%;/*4*/
+            /*5 - Méthode de centrage en fonction de la taille de l'image */
+            position: absolute;
+            top: 0%;
+            left: 56%;
+            transform: translate(-50%, -50%);
+         }
+    
+         .image_carte-5{
+            height: 130px;
+            position: relative;/*2*/
+            overflow: hidden;/*3*/
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+         }
+    
+         .image_carte-5 img{
+            width: 155%;/*4*/
+            /*5 - Méthode de centrage en fonction de la taille de l'image */
+            position: absolute;
+            top: 66%;
+            left: 29%;
+            transform: translate(-50%, -50%);
+         }
+    
+         .image_carte-6{
+            height: 130px;
+            position: relative;/*2*/
+            overflow: hidden;/*3*/
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+         }
+    
+         .image_carte-6 img{
+            width: 127%;/*4*/
+            /*5 - Méthode de centrage en fonction de la taille de l'image */
+            position: absolute;
+            top: 50%;
+            left: 51%;
+            transform: translate(-50%, -50%);
+         }
+    
+         .nom_ativites{ /* nom des activites */
+            font-weight: bolder;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 160%;
+         }
 
 }
