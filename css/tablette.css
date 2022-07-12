@@ -303,7 +303,7 @@
     .affiches_plus{ /*afficher plus*/
         background-color: #F2F2F2;
         position: absolute;
-        top: 173%;
+        top: 116%;
         left: 11%;
         font-size: 20px;
         font-weight: bold;
@@ -315,7 +315,7 @@
         width: 93%;
         border-radius: 20px;
         position: absolute;
-        top: 190%;
+        top: 125%;
     }
 
     .Populaire{ /*titre du contenu*/
@@ -659,5 +659,48 @@
             text-align: center;
             font-size: 160%;
          }
+
+     /* FOOTER */
+
+     footer {
+        display : flex;
+        top: 535%;
+        position: absolute;
+        height: 350px; /* à titre d'exemple */
+        width: 100%;
+        background-color: #F2F2F2;
+    }
+
+    .footer_contenu{
+        width: 100%;
+        height: 70%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .A_propos{
+        height: 100px;
+        width: 250px;
+        margin-left: -15%;
+        line-height: 0px;
+        list-style: none;
+    }
+
+    .Nos_hebergements{
+        height: 100px;
+        width: 250px;
+        line-height: 0px;
+        list-style: none;
+    }
+
+    .Assistance{
+        height: 100px;
+        width: 250px;
+        line-height: 0px;
+        list-style: none;
+    }         
     
 }
