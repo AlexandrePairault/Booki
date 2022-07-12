@@ -1,0 +1,675 @@
+@media only screen and (max-width: 768px){
+
+    body{
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    .barre_de_navigation{ /*Qui englobe le logo, hebergements, activites */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .logo_booki{ /* Position du logo */
+        margin-left: 150px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .logo_booki img{ /* Taille du logo */
+        height: 60px;
+    }
+
+     /*Hergements et activites*/
+
+    .hebergement a, .activite a{/*hebergement&activite text*/
+        text-decoration : none;
+    }
+
+    .TXT_a{/*Position bordure, text top*/
+        display: flex;
+        padding-bottom: 20px;
+        padding-left: 30%;
+        border-bottom: gray 5px solid;
+        color: black;
+        font-size: 20px;
+    }
+
+    .TXT_h{/*Position bordure, text top*/
+        display: flex;
+        padding-bottom: 20px;
+        padding-left: 20%;
+        border-bottom: gray 5px solid;
+        color: black;
+        font-size: 20px;
+    }
+
+    a:hover.TXT_h, a:hover.TXT_a{ /*couleur au survol + bordure*/
+        border-bottom: #0065FC 5px solid;
+        color: #0065FC;
+    }
+
+    
+    
+    .hebergement_et_activites{ /* Position du contenu des div hebergement et activite*/
+        display: flex;
+        width: 414px;
+        padding: 0%;
+    }
+
+    .hebergement, .activite{ /*fixe position de l'encadrement*/
+        list-style-type: none;
+        margin-block-start: 0em;
+        padding-inline-start: 0px;
+        width: 50%;
+    }
+    /* HEADER */
+
+    header{
+
+        width: 95vw;
+        height: 45vh;
+        margin-left: 10px;
+    }
+
+    .Text_reve h1{ /*Trouvez votre hebergement*/
+        font-size: 21.5px;
+    }
+
+    .Text_reve{ /*En plein centre ville*/
+        line-height: 18px;
+    }
+
+    /*Barre de recherche*/
+    
+    #barre_de_recherche{ /*Le contenu de la barre*/
+        background-color: #F2F2F2;
+        width: fit-content;
+        position: relative;
+        width: 360px;
+        height: 60px;
+        border-radius: 15px;
+        
+    }
+
+    .localisation{ /*Logo localisation */
+        position: absolute;
+        top: 20px;
+        left: 25px;
+        
+    }
+
+
+    input{ /*Barre de text*/
+        position: absolute; 
+        left: 60px;
+        top: 2px;
+        height: 56px;
+        width: 245px;
+        border: none;
+        font-weight: bolder;
+        font-size: 24px;
+    }
+
+    button{ /*Boutton rechercher*/
+        display: none;
+    }
+
+    .boutton_recherche{/*Loupe logo*/
+        position: absolute;
+        right: 0px;
+        width: 60px;
+        height: 60px;
+        background-color: #0065FC;
+        border-radius: 10px;
+    }
+    
+    .fa-magnifying-glass{ /*La loupe du mobile*/
+        position: absolute;
+        right: 18px;
+        top: 29px;
+        color: #F2F2F2;
+    }
+
+        /* FILTRES */
+
+        .contenu_filtre{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 50px;
+            border: 2px #F2F2F2 solid;
+            width: fit-content;
+            height: 48px;
+            margin-left: 10px;
+            margin-top: 10px;
+            
+        }
+        
+        .logo_filtre{
+            background-color: #DEEBFF;
+            color: #0065FC;
+            border-radius: 50px;
+            width: 52px;
+            height: 52px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -2px;
+        }
+        
+        .text_filtre p{
+            display: flex;
+            font-weight: bolder;
+            padding-right: 15px;
+            padding-left: 10px;
+            font-size: 18px;
+        }
+    
+        .h3filtre{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 130px;
+            padding-left: 10px;
+            margin-bottom: -15px;
+            font-size: 20px;
+        }
+    
+        .barre_filtre{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            height: 100px;
+            width: 90vw;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+
+    /* Plus de 500 hebergement  */
+
+        .Contenu-text{ /*Contenu du text*/
+        display: flex;
+        align-items: baseline;
+        margin-top: 150px;
+        margin-left: 20px;
+        }
+
+        .logo_i{ /*Position du logo*/
+        display: flex;
+        border-radius: 50px;
+        border: 1px solid #F2F2F2;
+        align-items: center;
+        justify-content: center;
+        width: 26px;
+        height: 20px;
+        margin-right: 10px;
+        padding-top: 0px;
+        }
+
+        .Contenu-text p{
+            font-size: 17px;
+        }
+
+        .fa-info{ /*Couleur du logo*/
+        color: #0065FC;
+        }
+        main{ /* main de la page */
+            display: flex;
+            
+            width: 100vw;
+            height: 600px;
+            font-family: 'Raleway', sans-serif;
+            justify-content: space-between;
+        }
+    
+        .contenu-main{ /* contenu d'hebergement a marseille */
+            display: flex;
+            height: 239%;
+            width: 100%;
+            flex-direction: column;
+            margin-top: 220%;
+        }
+        
+        .Hebergement{ /* Hébegerment a marseille*/
+            font-size: 20px;
+            display: flex;
+            margin-left: 28px;
+            margin-top: 30px;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 70%;
+        }
+    
+        .contenu-cartes{ /* le contenu des cartes a marseille */
+            display: flex;
+            flex-direction: column;
+            width: 94%;
+            height: 90%;
+            margin-left: 3%;
+            margin-top: -1%;
+        }
+    
+        .la_carte{ /* la carte */
+            background-color: white;
+            width: 92%;
+            height: 45%;
+            border: 5px white solid;
+            margin-top: 14px;
+            margin-left: 11px;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    
+        .carte-image{ /* contenu de l'image*/
+            height: 120px;/*1*/
+            position: relative;/*2*/
+            overflow: hidden;/*3*/
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+    
+        .carte-image img{  /* image de la carte */
+            width: 100%;/*4*/
+            /*5 - Méthode de centrage en fonction de la taille de l'image */
+            position: absolute;
+             top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .Nom_hotel{ /*le nom de l'hotel*/
+            font-weight: bold;
+            margin-top: -4%;
+            margin-left: 5%;
+            font-size: 18px;
+        }
+    
+        .prix_hotel{ /* le prix de l'hotel */
+            margin-top: -4%;
+            margin-left: 5%;
+        }
+    
+        .etoile_ligne{ /* etoile en bas de la carte */
+            display: flex;
+            margin-top: -4%;
+            margin-left: 4%;
+            align-items: center;
+            color: #0065FC;
+        }
+    
+        .etoile_desactive{ /* les etoile désactivé*/
+            margin-top: 1px;
+            color: #DEEBFF;
+        }
+        .etoile_desactive2{ /* la carte suivante etoile désactivé aussi */
+            margin-top: 1px;
+            color: #DEEBFF;
+        }
+    
+        .etoile_active{ /* etoile active*/
+            margin-top: 1px;
+            color:#0065FC;
+        }
+    
+        .affiches_plus{ /*afficher plus*/
+            position: absolute;
+            top: 389%;
+            left: 6%;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    
+        .contenu-populaires{ /*contenu du titre populaire*/
+            background-color: #F2F2F2;
+            height: 110%;
+            width: 100%;
+            position: absolute;
+            top: 93%;
+        }
+    
+        .Populaire{ /*titre du contenu*/
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #F2F2F2;
+            font-size: 20px;
+            width: 79%;
+            height: 10%;
+            margin-left: 10%;
+            margin-top: 7%;
+        }
+    
+        .contenu_carte_populaire{ /*contenu des cartes populaire*/
+            background-color: #F2F2F2;
+            width: 100%;
+            height: 85%;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .carte_populaire{ /*la carte populaire*/
+            width: 91%;
+            height: 42%;
+            margin-left: 3%;
+            margin-bottom: 10%;
+            border-radius: 15px;
+            background-color: white;
+            border: 7px white solid;
+        }
+    
+        .carte_image_populaire{ /*contenu de l'image de la carte populaire*/
+            height: 173px;/*1*/
+            width: 164px;
+            position: relative;/*2*/
+            overflow: hidden;/*3*/
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    
+        .carte_image_populaire1{ /* comme au dessus */
+            height: 172px;/*1*/
+            width: 167px;
+            position: relative;/*2*/
+            overflow: hidden;/*3*/
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    
+        .carte_image_populaire1 img{ /* l'image de la carte*/
+            width: 117%;/*4*/
+            /*5 - Méthode de centrage en fonction de la taille de l'image */
+            position: absolute;
+            top: -64%;
+            left: -26%;
+            transform: translate(0%, 20%);
+        }
+    
+        .carte_image_populaire img{ /*l'image de la carte aussi*/
+            width: 169%;/*4*/
+            /*5 - Méthode de centrage en fonction de la taille de l'image */
+            position: absolute;
+            top: -2%;
+            left: -54%;
+            transform: translate(10%, -1%);
+        }
+    
+        .nom_populaire{ /* nom de la carte*/
+            position: absolute;
+            top: 14%;
+            right: 3%;
+            font-size: 20px;
+            flex-wrap: wrap;
+            width: 48%;
+            font-weight: bolder;
+        }
+    
+        .nom_populaire1{
+            position: absolute;
+            top: 43%;
+            right: 5%;
+            font-size: 20px;
+            flex-wrap: wrap;
+            width: 46%;
+            font-weight: bolder;
+        }
+    
+        .nom_populaire2{
+            position: absolute;
+            top: 71%;
+            right: 8%;
+            font-size: 20px;
+            flex-wrap: wrap;
+            width: 43%;
+            font-weight: bolder;
+        }
+    
+        .prix_populaire{ /*prix de la carte*/
+            position: absolute;
+            top: 22%;
+            right: 14%;
+            font-size: 16px;
+            flex-wrap: wrap;
+            width: 37%;
+        }
+    
+        .prix_populaire1{
+            position: absolute;
+            top: 51%;
+            right: 15%;
+            font-size: 16px;
+            flex-wrap: wrap;
+            width: 36%;
+        }
+    
+        .prix_populaire2{
+            position: absolute;
+            top: 80%;
+            right: 15%;
+            font-size: 16px;
+            flex-wrap: wrap;
+            width: 36%;
+        }
+    
+        .etoile_ligne_populaire{ /*etoile de la carte*/
+            position: absolute;
+            top: 32%;
+            right: 31%;
+            flex-wrap: wrap;
+            width: 20%;
+            display: flex;
+            align-items: center;
+            color: #0065FC;
+        }
+    
+        .etoile_ligne_populaire1{
+            position: absolute;
+            top: 60%;
+            right: 30%;
+            flex-wrap: wrap;
+            width: 21%;
+            display: flex;
+            align-items: center;
+            color: #0065FC;
+        }
+    
+        .etoile_ligne_populaire2{
+            position: absolute;
+            top: 88%;
+            right: 31%;
+            flex-wrap: wrap;
+            width: 20%;
+            display: flex;
+            align-items: center;
+            color: #0065FC;
+        }
+
+             /*Activites a marseille*/
+
+     .contenu_activites{ /* contenu des activites */
+        width: 302%;
+        height: 70%;
+        margin-left: -202%;
+     }
+
+     .titres_activites{ /*titre des activites*/
+        display: flex;
+        width: 30%;
+        height: 15%;
+        font-size: 20px;
+        align-items: center;
+        justify-content: start;
+        margin-top: 20px;
+     }
+
+     .contenu_activites_cartes{ /* contenu des cartes */
+        display: flex;
+        flex-flow: column wrap;
+        align-content: space-between;
+        height: 580px;
+        width: 100%;
+     }
+
+
+     .activites_carte-1{ /* contenu de la carte */
+        height: 100%;
+        width: 23%;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+        
+     }
+
+
+     .activites_carte-2{
+        height: 53%;
+        width: 21%;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-bottom: 56px;
+        border-radius: 20px;
+     }
+
+     .activites_carte-3{
+        height: 37%;
+        width: 21%;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+     }
+
+     .activites_carte-4{
+        height: 100%;
+        width: 24%;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+     }
+
+     .activites_carte-5{
+        height: 45%;
+        width: 21%;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+        margin-bottom: 56px;
+     }
+
+     .activites_carte-6{
+        height: 45%;
+        width: 21%;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+     }
+
+     .image_carte-1{ /* contenu de l'image */
+        height: 520px;/*1*/
+        position: relative;/*2*/
+        overflow: hidden;/*3*/
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+     }
+
+     .image_carte-1 img{ /* l'image de la carte */
+        width: 235%;/*4*/
+        /*5 - Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 49%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     }
+
+     .image_carte-2{
+        height: 250px;/*1*/
+        position: relative;/*2*/
+        overflow: hidden;/*3*/
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+     }
+
+     .image_carte-2 img{
+        width: 105%;/*4*/
+        /*5 - Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 74%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     }
+
+     .image_carte-3{
+        height: 150px;/*1*/
+        position: relative;/*2*/
+        overflow: hidden;/*3*/
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+     }
+
+     .image_carte-3 img{
+        width: 120%;/*4*/
+        /*5 - Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 77%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     }
+
+     .image_carte-4{
+        height: 517px;/*1*/
+        position: relative;/*2*/
+        overflow: hidden;/*3*/
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+     }
+
+     .image_carte-4 img{
+        width: 226%;/*4*/
+        /*5 - Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 50%;
+        left: 56%;
+        transform: translate(-50%, -50%);
+     }
+
+     .image_carte-5{
+        height: 200px;/*1*/
+        position: relative;/*2*/
+        overflow: hidden;/*3*/
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+     }
+
+     .image_carte-5 img{
+        width: 155%;/*4*/
+        /*5 - Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 66%;
+        left: 29%;
+        transform: translate(-50%, -50%);
+     }
+
+     .image_carte-6{
+        height: 202px;/*1*/
+        position: relative;/*2*/
+        overflow: hidden;/*3*/
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+     }
+
+     .image_carte-6 img{
+        width: 127%;/*4*/
+        /*5 - Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 50%;
+        left: 51%;
+        transform: translate(-50%, -50%);
+     }
+
+     .nom_ativites{ /* nom des activites */
+        font-weight: bolder;
+        margin-left: 20px;
+        margin-top: 20px;
+     }
+
+}
