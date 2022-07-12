@@ -86,7 +86,8 @@
         background-color: #F2F2F2;
         width: fit-content;
         position: relative;
-        width: 360px;
+        width: 100%;
+        min-width: 259px;
         height: 60px;
         border-radius: 15px;
         
@@ -105,7 +106,7 @@
         left: 60px;
         top: 2px;
         height: 56px;
-        width: 245px;
+        width: 190px;
         border: none;
         font-weight: bolder;
         font-size: 24px;
@@ -493,7 +494,8 @@
     
          .titres_activites{ /*titre des activites*/
             display: flex;
-            width: 30%;
+            width: 60%;
+            margin-left: 6%;
             height: 15%;
             font-size: 20px;
             align-items: center;
@@ -510,8 +512,8 @@
     
     
          .activites_carte-1{ /* contenu de la carte */
-            width: 94%;
-            margin-left: 2%;
+            width: 90%;
+            margin-left: 5%;
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 20px;
@@ -520,8 +522,8 @@
     
     
          .activites_carte-2{
-            width: 94%;
-            margin-left: 2%;
+            width: 90%;
+            margin-left: 5%;
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             margin-bottom: 56px;
@@ -530,8 +532,8 @@
          }
     
          .activites_carte-3{
-            width: 94%;
-            margin-left: 2%;
+            width: 90%;
+            margin-left: 5%;
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 20px;
@@ -539,8 +541,8 @@
          }
     
          .activites_carte-4{
-            width: 94%;
-            margin-left: 2%;
+            width: 90%;
+            margin-left: 5%;
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 20px;
@@ -548,8 +550,8 @@
          }
     
          .activites_carte-5{
-            width: 94%;
-            margin-left: 2%;
+            width: 90%;
+            margin-left: 5%;
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 20px;
@@ -558,8 +560,8 @@
          }
     
          .activites_carte-6{
-            width: 94%;
-            margin-left: 2%;
+            width: 90%;
+            margin-left: 5%;
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 20px;
@@ -671,8 +673,8 @@
          .nom_ativites{ /* nom des activites */
             font-weight: bolder;
             margin-top: 20px;
-            text-align: center;
-            font-size: 160%;
+            margin-left: 6%;
+            font-size: 110%;
          }
 
 }
