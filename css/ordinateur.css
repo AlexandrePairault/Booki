@@ -264,6 +264,15 @@
         font-size: 18px;
     }
 
+    .Nom_hotel a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .Nom_hotel a:hover{
+        color:#0065FC;
+    }
+
     .prix_hotel{ /* le prix de l'hotel */
         margin-top: -4%;
         margin-left: 5%;
@@ -298,6 +307,15 @@
         left: 5%;
         font-size: 20px;
         font-weight: bold;
+    }
+
+    .affiches_plus a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .affiches_plus a:hover{
+        color:#0065FC;
     }
 
     .contenu-populaires{ /*contenu du titre populaire*/
@@ -384,6 +402,15 @@
         font-weight: bolder;
     }
 
+    .nom_populaire a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .nom_populaire a:hover{
+        color:#0065FC;
+    }
+
     .nom_populaire1{ 
         position: absolute;
         top: 102%;
@@ -394,6 +421,15 @@
         font-weight: bolder;
     }
 
+    .nom_populaire1 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .nom_populaire1 a:hover{
+        color:#0065FC;
+    }
+
     .nom_populaire2{
         position: absolute;
         top: 128%;
@@ -402,6 +438,15 @@
         flex-wrap: wrap;
         width: 12%;
         font-weight: bolder;
+    }
+
+    .nom_populaire2 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .nom_populaire2 a:hover{
+        color:#0065FC;
     }
 
     .prix_populaire{ /*prix de la carte*/
@@ -649,6 +694,17 @@
         margin-left: 20px;
         margin-top: 20px;
      }
+
+     .nom_ativites a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .nom_ativites a:hover{
+        color:#0065FC;
+    }
+
+
 
      /* FOOTER */
 
