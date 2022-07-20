@@ -243,7 +243,6 @@
         color: black;
         background-color: white;
         padding: 1%;
-        transition:transform .2s;
         margin-bottom: 4%;
         box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
         border: none;
