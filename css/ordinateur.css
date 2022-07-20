@@ -515,13 +515,5 @@
         text-decoration: underline;
         color:#0065FC;
     }
-    
-    /*Mobile*/
-
-    @media only screen and (max-width: 768px){
-
-
-        
-    }
 
 }
