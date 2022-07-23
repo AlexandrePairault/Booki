@@ -101,6 +101,10 @@
         margin-left: -20px;
     }
 
+    .booki-submit-btn-shearch-form p{
+        display: none;
+    }
+
     .booki-recherche-form button[type=submit]::after{
         font-family: "Font Awesome 6 Free";
         content: "\f002";
