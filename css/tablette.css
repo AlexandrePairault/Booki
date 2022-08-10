@@ -9,7 +9,7 @@
     scroll-behavior: smooth;
   }
 
-  .barre_de_navigation {
+  header {
     /*Qui englobe le logo, hebergements, activites */
     display: flex;
     flex-wrap: wrap;
@@ -298,6 +298,15 @@
   }
 
   .booki-hebergement-carte-infos-etoiles i.fa-solid.fa-star {
+    color: #f2f2f2;
+  }
+
+  .booki-plus-populaire-carte-infos-etoile-2 i.fa-solid.fa-star.bleu {
+    color: #0065fc;
+  }
+
+
+  .booki-plus-populaire-carte-infos-etoile-2 i.fa-solid.fa-star {
     color: #f2f2f2;
   }
 

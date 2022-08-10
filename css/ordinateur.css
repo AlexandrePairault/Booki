@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;1,600;1,700&display=swap");
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px){
   html {
     scroll-behavior: smooth;
   }
@@ -7,10 +7,9 @@
   body {
     font-family: "Raleway", sans-serif;
     margin: 0;
-    scroll-behavior: smooth;
   }
 
-  .barre_de_navigation {
+  header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -386,7 +385,17 @@
     color: #0065fc;
   }
 
+
   .booki-plus-populaire-carte-infos-etoile i.fa-solid.fa-star {
+    color: #f2f2f2;
+  }
+
+  .booki-plus-populaire-carte-infos-etoile-2 i.fa-solid.fa-star.bleu {
+    color: #0065fc;
+  }
+
+
+  .booki-plus-populaire-carte-infos-etoile-2 i.fa-solid.fa-star {
     color: #f2f2f2;
   }
 
@@ -512,3 +521,22 @@
     color: #0065fc;
   }
 }
+
+@media only screen and (max-width: 1270px) and (min-width: 993px){
+  
+  .booki-plus-populaire-carte-infos h3 {
+    font-size: 18px;
+    margin-block-start: 8px;
+    margin-block-end: -50px;
+  }
+
+  .booki-plus-populaire-carte-infos-description{
+    padding-top: 30%;
+  }
+  
+  .booki-plus-populaire-carte-infos-etoile-2{
+    margin-top: -4%;
+  }
+
+}
+
